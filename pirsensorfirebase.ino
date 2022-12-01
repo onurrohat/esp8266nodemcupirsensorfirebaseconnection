@@ -23,13 +23,13 @@ FirebaseData firebaseData ;
 //#include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "TurkTelekom_Z3RYN"
-#define WIFI_PASSWORD "512DDD167F7A5"
+#define WIFI_SSID "Your Wifi SSID"
+#define WIFI_PASSWORD "Your Wifi Password"
 // Insert Firebase project API Key
-#define FIREBASE_AUTH  "2G1cAvbGTAo6zRiPhcYeOo5L9o5JcF0rTtpsmhlC"
+#define FIREBASE_AUTH  "Firebase-Auth Token"
 
 // Insert RTDB URLefine the RTDB URL *//
-#define FIREBASE_HOST "pirsensor-b1ff2-default-rtdb.firebaseio.com" 
+#define FIREBASE_HOST "Firebase URL without https" 
 
 
 
@@ -82,4 +82,4 @@ void loop() {
        
       }
 
-}      
+}          
